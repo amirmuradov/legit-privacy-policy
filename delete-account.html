@@ -3,11 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
 <title>Delete Your Account — Legit</title>
 <style>
   :root{
+    color-scheme: light dark;
     --ink:#12202e;--ink-soft:#4a5b6c;--paper:#fbfaf7;--rule:#dcd8cf;
     --trust:#0f6b5c;--trust-wash:#eaf3f0;--warn:#8a5a12;--warn-wash:#faf1de;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root{
+      --ink:#f5efe6;--ink-soft:#b9c2cb;--paper:#11161d;--rule:#2b3744;
+      --trust:#64d2bb;--trust-wash:#14332b;--warn:#f3c879;--warn-wash:#3b2a0f;
+    }
   }
   *{box-sizing:border-box}
   html{-webkit-text-size-adjust:100%}
